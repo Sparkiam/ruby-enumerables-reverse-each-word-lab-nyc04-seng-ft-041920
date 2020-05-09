@@ -11,6 +11,6 @@ def reverse_each_word(string)
   string.size.times { array << reverse.pop}
   # reverse = string.split.collect("")
   return array.reverse.join
-  # end 
+   end 
 end 
 
