@@ -5,4 +5,4 @@ def reverse_each_word(string)
   array.join
 end 
 
-puts reverse_each_word
+reverse_each_word
