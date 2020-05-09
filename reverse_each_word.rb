@@ -10,6 +10,7 @@ def reverse_each_word(string)
     string.collect do |reverse|
   reverse = string.split("")
   string.size.times { array << reverse.pop}
+end 
   return array.reverse.join
 end 
 
