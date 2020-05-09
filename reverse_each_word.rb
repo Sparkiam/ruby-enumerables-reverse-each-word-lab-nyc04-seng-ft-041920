@@ -8,8 +8,8 @@ def reverse_each_word(string)
   
     array = []
     string.each do |reverse|
-  reverse = string.split.collect("")
-  string.size.times { array << reverse.pop}
+  string.size.times { array << reverse.pop}reverse = string.split.collect("")
+  
 end 
   return array.reverse.join
 end 
