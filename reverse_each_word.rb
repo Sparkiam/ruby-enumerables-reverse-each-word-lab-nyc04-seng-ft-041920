@@ -7,7 +7,7 @@ def reverse_each_word(string)
   
   
   
-  new_string = string.split("")
+  split_string = string.split("")
   array = []
   string.size.times { array << split_string.pop}
   return array.join(" ")
