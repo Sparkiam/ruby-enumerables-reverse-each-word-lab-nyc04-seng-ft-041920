@@ -10,6 +10,6 @@ def reverse_each_word(string)
   reverse = string.split("")
   array = []
   string.size.times { array << reverse.pop}
-  return array.join(" ")
+  return array.join
 end 
 
