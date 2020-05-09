@@ -2,6 +2,6 @@ def reverse_each_word(string)
   new_string = string.split("")
   array = []
   string.size.times { array << split_string.pop}
-    array.map do |string| puts reverse_each_word
+  array.join
      end 
 end 
