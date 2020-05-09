@@ -9,7 +9,7 @@ def reverse_each_word(string)
     array = []
     string.each do |reverse|
   string.size.times { array << reverse.pop}
-  reverse = string.split.collect("")
+  # reverse = string.split.collect("")
   return array.reverse.join
   # end 
 end 
