@@ -9,7 +9,7 @@ def reverse_each_word(string)
   
   reverse = string.split("")
   array = []
-  string.size.times { array << reverse.pop}
+  string.size.times { array << reverse.shift}
   return array.join
 end 
 
